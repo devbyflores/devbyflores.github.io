@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg">
+    <title>Portafolio de Cristian Flores</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jQuery.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" id="nickname" class="logo"></a>
+        <nav class="nav">
+            <!--<a href="#home" class="active">Inicio</a>-->
+            <a href="#home" class="active selected">Inicio</a>
+            <a href="#about" class="active">Acerca de</a>
+            <a href="#services" class="active">Servicios</a>
+            <a href="#portfolio" class="active">Portafolio</a>
+            <a href="#contact" class="active">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1><span id="greeting"></span><span id="name"></span></h1>
+            <h3 id="title"></h3>
+            <p id="summary"></p>
+            <div class="btn-box">
+                <a href="#contact">Contrátame</a>
+                <a href="#contact">Hablemos</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/share/12Kkjmr8KiY/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://github.com/devbyflores" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/cristian-flores-a043a1371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Acerca de mí</h2>
+        <p id="description"></p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Servicios</h2>
+        <div class="service-box">
+            <div class="service">
+                <h3>Diseño Web</h3>
+                <p>Diseño sitios modernos, visualmente atractivos y adaptables a cualquier dispositivo.</p>
+            </div>
+            <div class="service">
+                <h3>Desarrollo Frontend</h3>
+                <p>Construyo interfaces interactivas y eficientes con tecnologías modernas como HTML, CSS y
+                    JavaScript.</p>
+            </div>
+            <div class="service">
+                <h3>Desarrollo Backend</h3>
+                <p>Implemento la lógica del servidor, bases de datos y APIs para que tu sistema funcione de forma
+                    estable y segura.</p>
+            </div>
+            <div class="service">
+                <h3>Optimización SEO</h3>
+                <p>Mejoro el posicionamiento en buscadores para aumentar tu visibilidad y atraer más visitantes.</p>
+            </div>
+            <div class="service">
+                <h3>Seguridad Web</h3>
+                <p>Aplico medidas de protección para salvaguardar tus datos y prevenir vulnerabilidades comunes.</p>
+            </div>
+            <div class="service">
+                <h3>Mantenimiento Web</h3>
+                <p>Brindo soporte técnico, actualizaciones y mejoras continuas para garantizar el óptimo
+                    funcionamiento de tu sitio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Portafolio</h2>
+        <div class="skills" id="skills"></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="fade-in">Contacto</h2>
+        <form class="fade-in">
+            <input class="fade-in" type="text" placeholder="Nombre completo" required>
+            <input class="fade-in" type="email" placeholder="Correo electrónico" required>
+            <textarea class="fade-in" rows="5" placeholder="Tu mensaje aquí..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>

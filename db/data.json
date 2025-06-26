@@ -1,0 +1,123 @@
+{
+    "nickname": "Flores.",
+    "greeting": "Hola, soy",
+    "name": "Cristian Flores",
+    "title": "Desarrollador Full Stack Junior",
+    "summary": "Apasionado por la tecnología, con una base técnica sólida y experiencia práctica en el desarrollo de soluciones web y móviles. Me enfoco en crear aplicaciones eficientes, escalables y con una excelente experiencia de usuario. Siempre en búsqueda de mejorar mis habilidades y aportar valor a través de soluciones bien pensadas y funcionales.",
+    "location": "Áncash, Perú",
+    "email": "fsce24@gmail.com",
+    "phone": "+51 923 842 097",
+    "website": "https://juanperez.dev",
+    "social": {
+        "twitter": "https://twitter.com/juanperezdev",
+        "github": "https://github.com/juanperez",
+        "linkedin": "https://www.linkedin.com/in/juanperez/"
+    },
+    "description": "Soy Cristian Flores, desarrollador full stack junior con una base técnica sólida y experiencia en la creación de soluciones web funcionales y modernas. Trabajo principalmente con tecnologías como HTML5, CSS3, JavaScript y jQuery, enfocándome en desarrollar interfaces limpias y fáciles de usar. Me interesa aprender constantemente y profundizar mis conocimientos para mejorar tanto la calidad como la eficiencia del código que escribo. Prefiero centrarme en los aspectos técnicos y en encontrar soluciones prácticas que realmente funcionen. Disfruto trabajar de forma enfocada, resolviendo problemas de manera lógica y estructurada, siempre con el objetivo de crear aplicaciones estables, escalables y bien pensadas.",
+    "skills": [
+        "CSS",
+        "Git",
+        "GitHub",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "SQL",
+        "Svelte"
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "level": "Nativo"
+        },
+        {
+            "language": "Inglés",
+            "level": "Avanzado (C1)"
+        }
+    ],
+    "projects": [
+        {
+            "name": "TaskFlow",
+            "description": "Aplicación web para la gestión de tareas con soporte para equipos, etiquetas y comentarios en tiempo real.",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Socket.IO"
+            ],
+            "github": "https://github.com/juanperez/taskflow",
+            "liveDemo": "https://taskflow.app"
+        },
+        {
+            "name": "DevBlog",
+            "description": "Plataforma de blogs para desarrolladores con sistema de autenticación, comentarios y Markdown.",
+            "technologies": [
+                "Next.js",
+                "Firebase",
+                "Tailwind CSS"
+            ],
+            "github": "https://github.com/juanperez/devblog",
+            "liveDemo": "https://devblog.juanperez.dev"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Desarrollador Full Stack",
+            "company": "TechSolutions S.L.",
+            "location": "Madrid, España",
+            "startDate": "2022-01",
+            "endDate": "Presente",
+            "responsibilities": [
+                "Desarrollo de APIs REST con Node.js y Express.",
+                "Implementación de interfaces responsivas en React.",
+                "Integración de bases de datos NoSQL y SQL.",
+                "Participación en despliegue continuo con Docker y GitHub Actions."
+            ]
+        },
+        {
+            "position": "Desarrollador Frontend",
+            "company": "WebCore Studio",
+            "location": "Barcelona, España",
+            "startDate": "2019-06",
+            "endDate": "2021-12",
+            "responsibilities": [
+                "Maquetación y diseño de interfaces en HTML, CSS y JavaScript.",
+                "Optimización de carga y accesibilidad en sitios web corporativos.",
+                "Colaboración con diseñadores UX/UI y backend developers."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Grado en Ingeniería Informática",
+            "institution": "Universitat Politècnica de Catalunya",
+            "startYear": 2015,
+            "endYear": 2019
+        },
+        {
+            "degree": "Curso de Desarrollo Web Full Stack",
+            "institution": "Platzi",
+            "startYear": 2020,
+            "endYear": 2020
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Certificación JavaScript Avanzado",
+            "issuer": "FreeCodeCamp",
+            "year": 2021
+        },
+        {
+            "name": "Docker y Kubernetes",
+            "issuer": "Udemy",
+            "year": 2023
+        }
+    ],
+    "interests": [
+        "Código abierto",
+        "Videojuegos",
+        "Ciberseguridad",
+        "Inteligencia Artificial"
+    ]
+}
